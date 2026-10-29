@@ -1,0 +1,9 @@
+PyQt6
+pandas
+openpyxl
+PyMuPDF
+pdfplumber
+networkx
+jinja2
+pdf2image
+pytesseract

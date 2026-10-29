@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Build output (PyInstaller)
+build/
+dist/
+*.spec
+*.exe
+
+# Real wiring data must never be committed. Only the invented files in samples/ are allowed.
+*.xlsx
+*.xls
+*.pdf
+*.ivs
+!samples/*.xlsx
+!samples/*.ivs
+
+# OS and editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
